@@ -21,10 +21,28 @@
     width: 135px;
     width: 82px;
 }
-.
+
 /* main style section */
 .light-gray-color{
     color: #8987A1;
+}
+.bg-primary{
+    color: #E95A08;
+}
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.banner-img{
+    width: 530px;
+    height: 355px;
 }
 /* responsive work */
 @media screen and (max-width: 576px) {
@@ -48,5 +66,30 @@
         width: 113px;
         height: 24px;
     }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0 0 0 0;
+    }
+    .banner-img{
+        width: 393.18px;
+        height: 245px;
+    }
+    .banner-text{
+        width: 361px;
+        height: 147px;
+        margin: 0 0 0 0;
+   }
+   .banner-title{
+    width: 361px;
+    height: 66px;
+    font-size: 24px;
+     margin-left: 16px;
+   }
+   .banner-discription{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 17px;
+   }
     
 }
