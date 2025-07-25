@@ -135,12 +135,12 @@ border: none;
     font-weight: bold;
 }
 .f-ul{
-    font-size: 22px;
+    font-size: 18px;
 }
 .trusted-badge{
    position: absolute;
   top: -120px;
-  left: 85%;
+  left: 78%;
   transform: translateX(-50%);
   width: 250px;
   height: 250px;
@@ -392,12 +392,63 @@ border: none;
     
    }
    .f-ul{
-    font-size: 14px;
+    font-size: 10px;
    }
    .f-li{
     width: 361px;
     height: 51px;
    }
-   
+/* latest deal */
+.latest-deals{
+    margin-top: 150px;
+}
+.deals-section{
+ width: 396px;
+ height: 117px;
+ margin-left: 0;
+
+}
+.l-h2{
+    width: 393px;
+    height: 33px;
+    font-size: 20px;
+    text-align: left;
+
+
+}
+.l-p{
+    text-align: center;
+    font-size: 14px;
+   flex-wrap: wrap;
+   width: 334px;
+   height: 50px;
+   margin-left: 0px;
+
+}
+.container {
+ display: block;
+  gap: 5px;
+ margin-left: 0;
+ 
+}
+.offer, .offers{
+    font-size: 20px;
+}
+.shop, .shops{
+    font-size: 16px;
+}
+.card.large {
+  height: 184px;
+  width: 365px;
+  margin-top: 20px;
+}
+.offers, .shop{
+    margin-left: -100px;
+    margin-top: 50px;
+}
+.shop{
+    margin-top: 20px;
+}
+
 }
 
